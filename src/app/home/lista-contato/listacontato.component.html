@@ -1,0 +1,17 @@
+<form class="form mt-12" (ngSubmit)="criar()">
+  <div class="form-group">
+    <input type="form-control" placeholder="Insira o nome" [(ngModel)]="name" name= "name"/>
+  </div>
+  <div class="form-group">
+    <input type="form-control" placeholder="telefone" [(ngModel)]="telefone" name= "telefone"/>
+  </div>
+  <div class="form-group">
+    <input type="form-control" placeholder="E-mail" [(ngModel)]="email" name= "email"/>
+  </div>
+  <div>
+  <button
+    type="submit" class="btn btn-primary btn-block">
+    Cadastrar
+  </button>
+</div>
+</form>
